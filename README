@@ -1,0 +1,21 @@
+# Chrome Download Automation Script
+
+A simple script that aims to automate downloads from Google Chrome by extracting download links from the browser's history.
+
+## Features
+
+- Extracts download links from the Chrome history.
+- Downloads files if the links are direct download links.
+- Logs the download results in a CSV file.
+
+## Requirements
+
+- Python 3.x
+- Requests library
+
+## Usage
+
+1. Ensure you have Python installed on your machine.
+2. Install the required libraries:
+   ```bash
+   pip install requests
